@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BodyProgress</string>
+    <string name="headLine_text">Body Progress</string>
+    <string name="ProfileButton_text">PROFIILI</string>
+    <string name="FoodDiaryButton_text">RUOKAPÄIVÄKIRJA</string>
+    <string name="TrainingDiaryButton_text">TREENIPÄIVÄKIRJA</string>
+    <string name="ProgressButton_text">EDISTYMINEN</string>
+    <string name="Kuvaus_text">Kuvaus</string>
+    <string name="Lisatietoja_text">Lisätietoja</string>
+    <string name="Lisätietoja_box_text">Tänne voit kirjoittaa lisätietoja edistymisestäsi: </string>
+    <string name="lisaaEdistyminen_Button">Lisää Edistyminen</string>
+    <string name="edistyminenOtsikko_text">EDISTYMINEN</string>
+    <string name="Paivamaara_text">Päivämäärä: </string>
+    <string name="Ika_text">Ikä: </string>
+    <string name="Paino_text">Paino(kg): </string>
+    <string name="Pituus_text">Pituus(cm): </string>
+    <string name="BMI_text">BMI = </string>
+    <string name="BMI_tulos_text">BMI tulos</string>
+</resources>
