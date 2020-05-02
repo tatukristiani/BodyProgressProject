@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NaytalisatiedotActivity">
+
+    <TextView
+        android:id="@+id/paivamaaraLisa"
+        android:layout_width="101dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/Paivamaara_text"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ikaLisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/Ika_text"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paivamaaraLisa" />
+
+    <TextView
+        android:id="@+id/painoLisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/Paino_text"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ikaLisa" />
+
+    <TextView
+        android:id="@+id/pituusLisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/Pituus_text"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/painoLisa" />
+
+    <TextView
+        android:id="@+id/bmiLisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/BMI_text"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pituusLisa" />
+
+    <TextView
+        android:id="@+id/lisatiedotTulos"
+        android:layout_width="366dp"
+        android:layout_height="174dp"
+        android:text="@string/Kuvaus_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bmiLisa"
+        app:layout_constraintVertical_bias="0.986" />
+
+    <TextView
+        android:id="@+id/ikaTulos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/Ika_text"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/ikaLisa"
+        app:layout_constraintTop_toBottomOf="@+id/paivamaaraLisa" />
+
+    <TextView
+        android:id="@+id/painoTulos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/Paino_text"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/painoLisa"
+        app:layout_constraintTop_toBottomOf="@+id/ikaLisa" />
+
+    <TextView
+        android:id="@+id/pituusTulos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/Pituus_text"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/pituusLisa"
+        app:layout_constraintTop_toBottomOf="@+id/painoLisa" />
+
+    <TextView
+        android:id="@+id/bmiTulos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/BMI_tulos_text"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/bmiLisa"
+        app:layout_constraintTop_toBottomOf="@+id/pituusLisa" />
+
+    <TextView
+        android:id="@+id/lisatiedotLisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/Lisatietoja_text"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/lisatiedotTulos"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/paivamaaraTulos"
+        android:layout_width="110dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/Paivamaara_text"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/paivamaaraLisa"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

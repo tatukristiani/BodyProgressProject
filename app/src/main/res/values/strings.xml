@@ -15,5 +15,10 @@
     <string name="Paino_text">Paino(kg): </string>
     <string name="Pituus_text">Pituus(cm): </string>
     <string name="BMI_text">BMI = </string>
-    <string name="BMI_tulos_text">BMI tulos</string>
+    <string name="BMI_tulos_text">0</string>
+    <string name="tallennaButton">TALLENNA</string>
+    <string name="laske_bmiButton">Laske BMI</string>
+    <string name="inputMitat_text">cm</string>
+    <string name="saatupvm_text">PVM</string>
+    <string name="buil_button">Päivitä lista</string>
 </resources>
