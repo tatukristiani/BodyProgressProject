@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button progressButton = findViewById(R.id.ProfileButton);
+        //tällä voi tyhjentää tiedot!!
+        //getApplicationContext().getSharedPreferences("CREDENTIALS", 0).edit().clear().commit();
 
     }
     //Siirtyy edistymisten aktiviteetille

@@ -39,7 +39,7 @@ public class LisaaEdistyminen extends AppCompatActivity {
 
     //laskee BMI arvon ja päivittää sen kohdan
     public void onLaskeBMIClick(View v){
-        laskeBMI();
+            laskeBMI();
     }
     private void laskeBMI(){
 
